@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Economía Política de la Comunicación</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#f4f4f4;
+color:#1f2937;
+}
+
+.font-display{
+font-family:'Space Grotesk',sans-serif;
+}
+
+/* COLORES UNAD */
+
+.unad-blue{color:#003A8F;}
+.bg-unad-blue{background:#003A8F;}
+
+.unad-orange{color:#F36F21;}
+.bg-unad-orange{background:#F36F21;}
+
+.card{
+background:white;
+border-radius:15px;
+padding:2rem;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:all .3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* ANIMACIONES SCROLL */
+
+.reveal{
+opacity:0;
+transform:translateY(40px);
+transition:all 1s ease;
+}
+
+.reveal.active{
+opacity:1;
+transform:translateY(0);
+}
+
+/* DOODLES */
+
+.doodle{
+position:absolute;
+opacity:0.15;
+animation:float 6s ease-in-out infinite;
+}
+
+.doodle-small{
+width:80px;
+}
+
+.doodle-medium{
+width:120px;
+}
+
+@keyframes float{
+
+0%{transform:translateY(0px);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0px);}
+
+}
+
+/* MENU ACTIVO */
+
+.nav-link.active{
+color:#F36F21;
+font-weight:600;
+}
+
+</style>
+
+</head>
+
+<body class="pt-24">
+
+<!-- NAVBAR -->
+
+<nav class="fixed w-full top-0 z-50 bg-unad-blue shadow-lg">
+
+<div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 text-white">
+
+<h1 class="font-display font-bold text-lg">
+Economía Política de la Comunicación
+</h1>
+
+<div class="space-x-6 text-sm">
+
+<a href="#quees" class="nav-link">¿Qué es?</a>
+<a href="#pilares" class="nav-link">Pilares</a>
+<a href="#pluralismo" class="nav-link">Pluralismo</a>
+<a href="#regulacion" class="nav-link">Regulación</a>
+<a href="#desigualdad" class="nav-link">Desigualdad</a>
+<a href="#colombia" class="nav-link">Colombia</a>
+<a href="#conclusion" class="nav-link">Reflexión</a>
+
+</div>
+
+</div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="min-h-screen flex items-center justify-center text-center px-6 relative">
+
+<!-- DOODLES -->
+
+<img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png"
+class="doodle doodle-medium"
+style="top:120px; left:80px;">
+
+<img src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png"
+class="doodle doodle-small"
+style="top:300px; right:120px;">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+class="doodle doodle-small"
+style="bottom:150px; left:200px;">
+
+<div class="max-w-3xl reveal">
+
+<h1 class="font-display text-5xl font-bold mb-6">
+
+Economía Política<br>
+<span class="unad-orange">de la Comunicación</span>
+
+</h1>
+
+<p class="text-lg text-gray-600 mb-8">
+Comprender la relación entre comunicación, poder y economía.
+</p>
+
+<img 
+src="https://images.unsplash.com/photo-1504711434969-e33886168f5c"
+class="rounded-xl shadow-xl mx-auto">
+
+</div>
+
+</section>
+
+
+<!-- QUE ES -->
+
+<section id="quees" class="py-24 px-6">
+
+<div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center reveal">
+
+<div>
+
+<h2 class="font-display text-4xl font-bold unad-blue mb-6">
+¿Qué es?
+</h2>
+
+<p class="mb-4">
+La Economía Política de la Comunicación es un enfoque que ayuda a entender que la comunicación no funciona de manera aislada. Los medios, la información y las plataformas digitales están conectados con relaciones de poder, intereses económicos y decisiones políticas. Este enfoque analiza quién controla los medios, cómo circula la información y qué efectos tiene esto en la sociedad.</p>
+
+
+
+</div>
+
+<img 
+src="https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+class="rounded-xl shadow-lg">
+
+</div>
+
+</section>
+
+
+<!-- PILARES -->
+
+<section id="pilares" class="py-24 px-6 bg-gray-100">
+
+<div class="max-w-6xl mx-auto reveal">
+
+<h2 class="font-display text-4xl font-bold text-center unad-blue mb-16">
+Los tres pilares
+</h2>
+<p>
+Desde esta perspectiva, la comunicación no es solo transmitir mensajes. También implica analizar quién tiene la capacidad de producir información y quién puede influir en la agenda pública. Cuando empresas, gobiernos o plataformas tecnológicas controlan los medios, también pueden influir en qué temas se discuten y cómo se presentan ante la sociedad.</p>
+<br>
+<br>
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="card text-center">
+
+<i data-lucide="megaphone" class="mx-auto mb-4 text-orange-500"></i>
+
+<h3 class="font-bold mb-2">Comunicación</h3>
+
+<p class="text-gray-600">
+Quién produce la información y cómo circula en la sociedad.
+</p>
+
+</div>
+
+<div class="card text-center">
+
+<i data-lucide="network" class="mx-auto mb-4 text-orange-500"></i>
+
+<h3 class="font-bold mb-2">Poder</h3>
+
+<p class="text-gray-600">
+Los actores que controlan los medios influyen en la agenda pública.
+</p>
+
+</div>
+
+<div class="card text-center">
+
+<i data-lucide="line-chart" class="mx-auto mb-4 text-orange-500"></i>
+
+<h3 class="font-bold mb-2">Economía</h3>
+
+<p class="text-gray-600">
+La propiedad de medios y publicidad afecta los contenidos.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PLURALISMO -->
+
+<section id="pluralismo" class="py-24 px-6">
+
+<div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center reveal">
+
+<img 
+src="https://images.unsplash.com/photo-1529070538774-1843cb3265df"
+class="rounded-xl shadow-lg">
+
+<div>
+
+<h2 class="font-display text-4xl font-bold unad-blue mb-6">
+Pluralismo
+</h2>
+
+<p>
+El pluralismo significa que en la sociedad existan muchas voces, opiniones y perspectivas en los medios. La Economía Política de la Comunicación analiza si realmente existe diversidad informativa o si la mayoría de los contenidos provienen de pocos actores. Cuando hay pluralismo, las personas pueden acceder a diferentes puntos de vista y construir una visión más crítica de la realidad.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- REGULACION -->
+
+<section id="regulacion" class="py-24 px-6 bg-gray-100">
+
+<div class="max-w-5xl mx-auto reveal">
+
+<h2 class="font-display text-4xl font-bold unad-blue mb-10 text-center">
+Regulación
+</h2>
+
+<img 
+src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f"
+class="rounded-xl shadow-lg mb-10">
+
+<p class="text-center">
+La regulación se refiere a las normas y políticas que el Estado establece para organizar el sistema de comunicación. Estas reglas buscan evitar monopolios y promover un acceso más equilibrado a la información. También permiten que existan distintos tipos de medios como los públicos, privados y comunitarios, fortaleciendo así la diversidad informativa.</p>
+
+</div>
+
+</section>
+
+
+<!-- DESIGUALDAD -->
+
+<section id="desigualdad" class="py-24 px-6">
+
+<div class="max-w-5xl mx-auto reveal">
+
+<h2 class="font-display text-4xl font-bold unad-blue mb-10 text-center">
+Desigualdad Informativa
+</h2>
+
+<img 
+src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
+class="rounded-xl shadow-lg mb-10">
+
+<p class="text-center">
+No todas las personas tienen las mismas oportunidades de acceder a información o a tecnologías de comunicación. Factores como la ubicación geográfica, los recursos económicos o la infraestructura tecnológica pueden generar brechas en el acceso a la información. Estas desigualdades afectan la forma en que las personas participan en la vida social y política.</p>
+
+</div>
+
+</section>
+
+
+<!-- COLOMBIA -->
+
+<section id="colombia" class="py-24 px-6 bg-gray-100">
+
+<div class="max-w-6xl mx-auto reveal">
+
+<h2 class="font-display text-4xl font-bold unad-blue mb-16 text-center">
+Ejemplo Colombia
+</h2>
+<p>
+Un ejemplo claro se observa en el acceso a internet entre zonas urbanas y rurales. En ciudades como Bogotá o Medellín muchas personas tienen acceso constante a internet, noticias digitales y redes sociales. Sin embargo, en varias zonas rurales la conexión sigue siendo limitada. Esto genera una brecha informativa porque quienes viven en esas regiones tienen menos oportunidades de acceder a información o participar en debates públicos que hoy se desarrollan en plataformas digitales.
+</p>
+<br>
+<br>
+<div class="grid md:grid-cols-2 gap-10">
+
+<div class="card">
+
+<h3 class="font-bold unad-orange mb-3">Ciudades</h3>
+
+<p>
+Mayor acceso a internet y medios digitales.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3 class="font-bold unad-orange mb-3">Zonas rurales</h3>
+
+<p>
+Limitaciones de conectividad generan desigualdad informativa.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONCLUSION -->
+
+<section id="conclusion" class="py-24 px-6">
+
+<div class="max-w-4xl mx-auto text-center reveal">
+
+<h2 class="font-display text-4xl font-bold unad-blue mb-8">
+Reflexión
+</h2>
+
+<p class="text-gray-600">
+La Economía Política de la Comunicación permite comprender que la información no circula de manera neutral. Detrás de los medios y las tecnologías existen estructuras económicas, políticas y sociales que influyen en cómo se produce y distribuye la información. Analizar estos procesos es fundamental para entender la relación entre comunicación, poder y democracia.</p>
+
+</div>
+
+</section>
+
+
+<footer class="bg-unad-blue text-white text-center py-10">
+
+Daiver García Torres • UNAD • Economía Política de la Comunicación
+
+</footer>
+
+
+<script>
+
+lucide.createIcons()
+
+/* ANIMACIONES SCROLL */
+
+function reveal(){
+
+let reveals=document.querySelectorAll(".reveal")
+
+for(let i=0;i<reveals.length;i++){
+
+let windowHeight=window.innerHeight
+let elementTop=reveals[i].getBoundingClientRect().top
+let elementVisible=100
+
+if(elementTop<windowHeight-elementVisible){
+reveals[i].classList.add("active")
+}
+
+}
+
+}
+
+window.addEventListener("scroll",reveal)
+
+/* MENU ACTIVO SEGÚN SECCIÓN */
+
+const sections=document.querySelectorAll("section")
+const navLinks=document.querySelectorAll(".nav-link")
+
+window.addEventListener("scroll",()=>{
+
+let current=""
+
+sections.forEach(section=>{
+
+const sectionTop=section.offsetTop
+const sectionHeight=section.clientHeight
+
+if(pageYOffset>=sectionTop-200){
+current=section.getAttribute("id")
+}
+
+})
+
+navLinks.forEach(link=>{
+
+link.classList.remove("active")
+
+if(link.getAttribute("href")==="#"+current){
+link.classList.add("active")
+}
+
+})
+
+})
+
+</script>
+
+</body>
+</html>
